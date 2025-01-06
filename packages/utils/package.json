@@ -1,5 +1,5 @@
 {
-  "name": "@internal/shared-types",
+  "name": "@internal/utils",
   "private": true,
   "version": "1.0.0",
   "main": "dist/index.js",
@@ -8,11 +8,16 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc -b --verbose"
+    "prepare": "yarn build",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "@trpc/client": "^10.45.2",
+    "server": "1.0.0"
+  },
   "devDependencies": {
     "@types/node": "^22.10.2",
     "typescript": "^5.7.2"

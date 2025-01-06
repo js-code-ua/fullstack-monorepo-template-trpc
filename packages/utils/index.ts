@@ -1,3 +1,5 @@
-export interface HelloResponse {
-  data: string
+import { createClient } from './rpc'
+
+export const rpc = {
+  createClient,
 }
