@@ -7,7 +7,7 @@ export const getHelloMessageInputSchema = z.object({
 })
 
 export const getHelloMessageOutputSchema = z.object({
-  data: z.string().describe('Greeting message from teh server'),
+  data: z.string().describe('Greeting message from the server'),
 })
 
 export const getHelloMessageProcedure = {
