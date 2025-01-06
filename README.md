@@ -1,4 +1,8 @@
-# Fullstack monorepo template for React.js + Node.js project
+# Fullstack monorepo template for React.js + Node.js project with tRPC
+
+## tRPC
+This template is built using tRPC for client-server communication.
+[More here](https://trpc.io/docs)
 
 ## Yarn workspaces
 

@@ -8,14 +8,14 @@ function App() {
 
     useEffect(() => {
         client.greeter.getHelloMessage
-            .query({firstName: 'John', lastName: 'Doe'})
-            .then(({data}) => setMsg(data))
+            .query({ firstName: 'John', lastName: 'Doe' })
+            .then(({ data }) => setMsg(data))
     }, []);
 
     return (
         <div className="App">
             <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo"/>
+                <img src={logo} className="App-logo" alt="logo" />
                 <p>{msg}</p>
             </header>
         </div>
